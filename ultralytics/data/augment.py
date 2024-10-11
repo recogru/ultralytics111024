@@ -1848,6 +1848,7 @@ class Albumentations:
                 A.RandomBrightnessContrast(p=0.0),
                 A.RandomGamma(p=0.0),
                 A.ImageCompression(quality_lower=75, p=0.0),
+                A.RandomRotate90(p=0.75), 
             ]
 
             # Compose transforms
